@@ -95,8 +95,8 @@ body {
     box-shadow: 0 0 20px var(--color), 0 0 50px var(--color);
 }
 
-.newYear{
-    font-size: 10em;
+.myBirthday{
+    font-size: 8em;
     font-weight: 600;
     color: #FFFFFF;
     text-align: center;
@@ -104,7 +104,7 @@ body {
     display: none;
 }
 
-.newYear span {
+.myBirthday span {
     font-size: .5em;
     font-weight: 300;
 }

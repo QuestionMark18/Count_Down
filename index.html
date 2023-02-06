@@ -40,7 +40,7 @@
             <div id="seconds">00<br><span>Seconds</span></div>
         </div>
     </div>
-    <h2 class="newYear">2024<br><span>Happy New Year</span></h2>
+    <h2 class="myBirthday">30/03/2003<br><span>Happy My Birthday</span></h2>
 
     <script>
         let days = document.getElementById('days')
@@ -58,7 +58,7 @@
         let minute_dot = document.querySelector('.minute_dot')
         let second_dot = document.querySelector('.second_dot')
 
-        let endDate = '01/01/2024 00:00:00'
+        let endDate = '03/30/2023 00:00:00'
         // MM/DD/YYYY (date format)
 
         let t = setInterval(function() {
@@ -90,7 +90,7 @@
             if(distance < 0) {
                 clearInterval(t)
                 document.getElementById('time').style.display = 'none'
-                document.querySelector('.newYear').style.display = 'block'
+                document.querySelector('.myBirthday').style.display = 'block'
             }
             })
     </script>
